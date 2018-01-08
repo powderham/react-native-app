@@ -15,6 +15,7 @@ import { fetchCalendarResults } from "../utils/api";
 import UdaciFitnessCalendar from "udacifitness-calendar";
 import { AppLoading } from "expo";
 import DateHeader from "./DateHeader";
+import MetricCard from "./MetricCard";
 
 class History extends Component {
   state = {
